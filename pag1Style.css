@@ -1,0 +1,57 @@
+body {
+   background-color: #edeff0;
+   font-size: 16px;
+   font-family: Helvetica;
+
+}
+
+p {
+   margin:10px;
+   color: #b2bac2;
+   text-align: justify;
+}
+
+div {
+   padding: 10px
+   background-color: white;
+   width:700px;
+
+}
+
+h1 {
+   margin:10px;
+   color: #384047;
+   font-size: 28px;
+}
+
+#titu {
+   margin:10px;
+   color:black;
+   font-size: 16px;
+   font-style: bold;
+}
+
+#verde {
+
+   background-color: #5fcf80;
+   border: 1px solid #3ac162;
+   height:50px;
+   width:100px;
+   text-align: center;
+   padding-top: 15px;
+   border-radius: 15%;
+   color:white;
+
+}
+
+#azul {
+
+   background-color: #3f8abf;
+   border: 1px solid #326e99;
+   height:50px;
+   width:100px;
+   text-align: center;
+   padding-top: 15px;
+   border-radius: 15%;
+   color:white;
+}
