@@ -1,8 +1,9 @@
+*{margin:15px;}
+
 body {
    background-color: #edeff0;
    font-size: 16px;
    font-family: Helvetica;
-
 }
 
 p {
@@ -41,7 +42,8 @@ h1 {
    padding-top: 15px;
    border-radius: 15%;
    color:white;
-
+   margin:auto;
+   margin:20px 10px 10px 60px;
 }
 
 #azul {
@@ -54,4 +56,5 @@ h1 {
    padding-top: 15px;
    border-radius: 15%;
    color:white;
+   margin:20px 10px 10px 60px;
 }
