@@ -1,7 +1,7 @@
-*{margin:15px;}
+/*{margin:15px;}*/
 
 body {
-   background-color: #edeff0;
+   background-color: #E6E4E4;
    font-size: 16px;
    font-family: Helvetica;
 }
@@ -12,28 +12,36 @@ p {
    text-align: justify;
 }
 
-div {
-   padding: 10px
-   background-color: white;
-   width:700px;
 
+div {
+   display: inline-block;
+   width:90%;
+}
+
+#first {
+      background-color: white;
+      text-align: center;
+      margin: 2% 5% 5% 5%;
 }
 
 h1 {
-   margin:10px;
+   margin-left:6.8%;
    color: #384047;
    font-size: 28px;
+   font-style: bold;
+   text-align: justify;
 }
+
 
 #titu {
    margin:10px;
    color:black;
    font-size: 16px;
    font-style: bold;
+
 }
 
 #verde {
-
    background-color: #5fcf80;
    border: 1px solid #3ac162;
    height:50px;
@@ -42,12 +50,9 @@ h1 {
    padding-top: 15px;
    border-radius: 15%;
    color:white;
-   margin:auto;
-   margin:20px 10px 10px 60px;
 }
 
 #azul {
-
    background-color: #3f8abf;
    border: 1px solid #326e99;
    height:50px;
@@ -56,5 +61,4 @@ h1 {
    padding-top: 15px;
    border-radius: 15%;
    color:white;
-   margin:20px 10px 10px 60px;
 }

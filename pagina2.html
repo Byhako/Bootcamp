@@ -3,51 +3,227 @@
 <head>
    <title>Parrafos</title>
 
+   <!--bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1"><!--ajuste para moviles-->
+
    <style>
       #d1 {
          background-color:whiteSmoke;
          border-bottom: 1px solid #ddd;
          width:100%;
          height: 40px;
-
-
+         position: fixed;
          }
-
-      #p1 {
-            color:#848484;
-            padding-top: 10px;
-            text-align: center;
-            font-size: 14px;
+      #fi:hover {
+         background-color:#C7C5C5;
       }
+      #caja {
 
+         width:150px;
+         height: 30px;
+         margin:2px;
+         position: fixed;
+         padding:2px;
+      }
+      #caja2 {
+         background-color:white;
+         border: 1px solid #C7C5C5;
+         width:70px;
+         height: 30px;
+         margin:5px 5px 5px 50px;
+         position: fixed;
+         padding:2px;
+         text-align: center;
+      }
+      #caja2:hover {
+         background-color: #C7C5C5;
+      }
+      #caja3 {
+         background-color:#EBEBEE;
+         border: 1px solid #EBEBEE;
+         display: inline-block;
+         width:90%;
+         height: 200px;
+         margin:60px 5% 0px 5%;
+         padding: 30px 30px 50px 40px
+      }
+      #caja4 {
+         display: inline-block;
+         width:90%;
+         height: 200px;
+         margin:30px 5% 5px 5%;
+         }
+      #caja5 {
+         background-color:#C2F1ED;
+         border: 1px solid #C2F1ED;
+         width:90%;
+         height: 40px;
+         margin:-5px 5% 10px 5%;
+         padding: 8px 0px 0px 10px;
+         }
+      #caja6 {
+         border-bottom: 1px solid #C6C8C8;
+         width:90%;
+         height: 40px;
+         margin: 5px 5% 1px 5%;
+         padding: 9px 10px 5px 10px;
+         }
+      #caja7 {
+         background-color: #FAB1A9;
+         color: #BA4134;
+         width: 270px;
+         height: 70px;
+         margin: 50px 40% 10px 40%;
+         padding:10px 10px 5px 10px;
+      }
+      #caja8 {
+         width: 270px;
+         /*height: 70px;*/
+         margin: 5px 40% 10px 40%;
+      }
+      #caja9 {
+         background-color:white;
+         border: 1px solid #C7C5C5;
+         width:260px;
+         height:35px;
+         margin:5px;
+         padding:4px;
+      }
+      #caja10 {
+         width:90%;
+         /*height: 40px;*/
+         margin: 30px 5% 10px 5%;
+         padding: 9px 0px 5px 0px;
+      }
+      #caja11 {
+         width: 90%;
+         height:130px;
+         background-color: #EBE9E9;
+         border: 1px solid #BEBCBC;
+         color: #898685;
+      }
+      #p1 {
+         color:#848484;
+         padding-top: 10px;
+         text-align: center;
+         font-size: 14px;
+      }
+      #p2 {
+         color:#848484;
+         padding-top: 3px;
+         font-size: 14px;
+      }
       #p3 {
-            color:#848484;
-            padding-top: 10px;
-            text-align: right;
-            font-size: 14px;
+         color:#848484;
+         padding-top: 10px;
+         text-align: right;
+         font-size: 13px;
+      }
+      #p4 {
+         display: inline-block;
+         margin-left: 45%;
+         position: relative;
+      }
+      #linea {
+         display: inline-block;
       }
 
    </style>
 
-   <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-   <!-- Latest compiled and minified JavaScript -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
    <div id = "d1" class="row">
 
-      <div  class="col-md-1"> <p id = "p1">El Juego</p> </div>
-      <div  class="col-md-1"> <p id = "p1">Home</p> </div>
-      <div  class="col-md-1"> <p id = "p1">Beneficios</p> </div>
-      <div  class="col-md-8"> <p>Parrafo 1</p> </div>
-      <div  class="col-md-1"> <p id = "p3">Ir a otro sitio</p> </div>
+      <div  class="col-md-1" id="fi" > <p id = "p1">El Juego</p> </div>
+      <div  class="col-md-1" id="fi"> <p id = "p1">Home</p> </div>
+      <div  class="col-md-1" id="fi"> <p id = "p1">Beneficios</p> </div>
+      <div  class="col-md-1" > <div id="caja"><p id = "p2">Search <input type="text" size="9" name="nombre"/></div> </div>
+      <div  class="col-md-1" id="fi"> <div id="caja2"><p id = "p2">Submit</p></div> </div>
+      <div  class="col-md-6"></div>
+      <div  class="col-md-1" id="fi"> <p id = "p3"> Ir a otro sitio</p> </div>
 
    </div>
 
+      <div id="caja3">
+         <p style="font-family:Arial; font-size:40px;"><strong>El planeta est&aacute en riesgo</strong> </p>
+         <p>S&aacutelvalo jugando este <strong>increible</strong> juego en l&iacutenea</p>
+         <div><button type="button" class="btn btn-primary">Empezar ahora</button></div>
+      </div>
+   </div>
+
+   <div class="row" id="caja4">
+
+      <div class="col-md-4">
+         <h4><strong>Multijugador</strong></h4>
+
+         <p>Si, juegalo con tus mejores amigos sin importar en donde se encuentren. Comunicate en tiempo real con ellos y salve el mundo. Si, salve el mundo!</p>
+
+         <div id="linea"><button type="button" class="btn btn-success">Invitar Amigos</button></div>
+         <div id="linea"><button type="button" class="btn btn-default">Jugar solo</button></div>
+
+      </div>
+
+      <div class="col-md-4">
+         <h4><strong>Divertido</strong></h4>
+
+         <p>Si, entre mas juegues, mas divertido sera el juego. Juega por horas, dias, o meses. Recuerda que lo importante no es ganar, es participar, aunque ganar es mas divertido.</p>
+
+         <div id="linea"><button type="button" class="btn btn-success">Si, quiero jugar</button></div>
+         <div id="linea"><button type="button" class="btn btn-default">No, ahora no puedo</button></div>
+
+      </div>
+         <div class="col-md-4">
+         <h4><strong>Compra</strong></h4>
+
+         <p>Si, queremos que juegues. Pero tambien queremos que compres. LLas compras son muy importantes para salvar el mundo. Esperamos que compres.</p>
+
+         <div id="linea"><button type="button" class="btn btn-success">Quiero comprar</button></div>
+         <div id="linea"><button type="button" class="btn btn-default">No tengo plata</button></div>
+
+      </div>
+   </div>
+
+   <div id="caja5"><p style="color:#087A70"><strong>&#161Atencion&#33</strong> El juego es muy popular. Regustrate antes de que sea tarde&#33</p>
+   </div>
+
+   <div id="caja6"><h4><strong>Puntaje</strong></h4></div>
+   <div id="caja6"><strong>Nombre</strong>  <p id="p4"><strong>Puntos</strong></p></div>
+   <div id="caja6">Pedro <p id="p4">   8.300</p></div>
+   <div id="caja6">Pablo <p id="p4">4.100</p></div>
+
+   <div id="caja7"><strong>&#161Lo sentimos&#33 En este momento no es posible registrarte</strong></div>
+
+   <div id="caja8">
+
+      <h3><strong>Registro</strong></h3>
+
+      <strong>E-mail addres</strong>
+      <div id="caja9"><p>Enter e-mail: <input type="text" size="17" name="e-mail"/></p></div>
+
+      <strong>Pasword</strong>
+      <div id="caja9"><p>Pasword: <input type="text" name="nombre"/></p></div>
+
+      <input type="checkbox"> Entiendo las condiciones y eso.
+      <p></p>
+      <button type="button" class="btn btn-default">Registrarse</button>
+
+   </div>
+
+   <div id="caja10">
+      <h3><strong>Registrate desde la consola</strong></h3>
+      <div id="caja11">
+         <h6>$ sudo apt-get install el-juego</h6>
+         <h6>$ el-juego sugnup</h6>
+         <h6>$ username:</h6>
+         <h6>$ pasword:</h6>
+         <h6>$ el juego play</h6>
+      </div>
+   </div>
 
 </body>
 </html>
