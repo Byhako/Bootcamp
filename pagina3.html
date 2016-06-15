@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Finanzas</title>
+
+   <!--bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1"><!--ajuste para moviles-->
+
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- http://fontawesome.io/icons/ -->
+   <style type="text/css">
+      #d1 {
+        border-bottom: 1px solid #ddd;
+        height: 50px;
+        margin-bottom: 20px;
+        position: fixed;
+        width:100%;
+        z-index: 2
+      }
+      nav p {
+        display: inline-block;
+        color:#848484;
+        font-size: 14px;
+        padding: 10px 15px 15px 15px;
+      }
+      nav p:hover {
+        background-color:black;
+        color:white;
+      }
+      input {
+        background: white;
+        border: 1px solid #BDBDBD;
+        height: 33px;
+        margin-right: -5px;
+        width: 215px;
+      }
+      #b1
+      {
+        display: inline-block;
+        margin-bottom: 7px;
+      }
+      #caja1 {
+        display: inline;
+        margin:60px 5% 0px 5%;
+        padding: 30px 30px 50px 40px;
+      }
+      #caja2 {
+        margin-top: 4%;
+        text-align: left;
+      }
+      #caja3 {
+        margin-top: 5%;
+      }
+      #caja4 {
+        margin-top: 3%;
+      }
+      .regla {
+        border-top: 1px solid #C6C8C8;
+        height: 50px;
+        width:100%;
+      }
+      .linea {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .linea2 {
+        display: inline-block;
+        margin-left: 75%;
+      }
+      .linea3 {
+        display: inline-block;
+        margin-left: 67.5%;
+      }
+      .linea4 {
+        display: inline-block;
+        margin-left: 78%;
+      }
+      .menu {
+        background: white;
+        border-color: white;
+        height: 30px;
+        color: black;
+        margin-top: 10px;
+        text-align: left;
+        width: 257px;
+      }
+      .p1 {
+        color:gray;
+        font-family: Arial;
+        font-size: 12px;
+      }
+      .p2 {
+        color:gray;
+        font-size: 24px;
+        font-family: Arial;
+        margin-top: -15px
+      }
+      .p3 {
+        color:#0B2161;
+        font-size: 16px;
+        font-family: Arial;
+        margin-top: -7px
+      }
+      .p4 {
+        color:#2E2E2E;
+        font-family: Arial;
+        font-size: 16px;
+      }
+      .p5 {
+        color:gray;
+        font-family: Arial;
+        font-size: 12px;
+        margin-top: -7px;
+      }
+      .boton {
+        background-color: #04B4AE;
+        border-radius: 15%;
+        color:white;
+        font-size: 10px;
+        height: 15px;
+      }
+   </style>
+</head>
+
+<body>
+  <nav id="d1" class="navbar navbar-inverse">
+    <p><strong>Mis Finanzas</strong></p>
+    <p>Resumen</p>
+    <p>Transacciones</p>
+    <p style="float:right;">Salir</p>
+  </nav>
+
+  <div class="row" id="caja1">
+
+    <div class="col-md-3" id="caja2">
+      <input type="text" placeholder="Buscar">
+        <button type="button" class="btn btn-default" id="b1">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </input>
+
+      <p></p>
+      <button class="menu">Ingresos</button>
+      <button class="menu">Gastos</button>
+      <button class="menu">Restaurantes</button>
+      <button class="menu">Hogar</button>
+      <button class="menu">Diverci&oacuten</button>
+      <button class="menu">Viajes</button>
+      <button class="menu">Carro</button>
+    </div>
+
+    <div class="col-md-9">
+      <div id="caja3">
+        <button type="button" class="btn btn-primary"><strong>+ Nueva Transaccion</strong></button>
+        <button type="button" class="btn btn-default" style="float:right;">Agosto 2016 <b class="caret"></b></button>
+      </div>
+
+      <div id="caja4">
+
+          <div class="regla">
+            <div class="linea"><p class="p1">Ago</p> <p class="p2">26</p></div>
+            <div class="linea">
+              <p class="p1">Gasto  <button class="boton">Hogar</button></p>
+              <p class="p3">Arriendo</p>
+            </div>
+            <div class="linea2">
+              <p class="p4">$900.000</p>
+              <p class="p5">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
+                <span class="glyphicon glyphicon-trash"></span> Eliminar
+              </p>
+            </div>
+          </div>
+
+          <div class="regla">
+            <div class="linea"><p class="p1">Ago</p> <p class="p2">25</p></div>
+            <div class="linea">
+              <p class="p1">Gasto  <button class="boton">Restaurante</button></p>
+              <p class="p3">El Rincon de mi tierra</p>
+            </div>
+            <div class="linea3">
+              <p class="p4">$120.000</p>
+              <p class="p5">
+              <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
+                <span class="glyphicon glyphicon-trash"></span> Eliminar
+              </p>
+            </div>
+          </div>
+
+          <div class="regla">
+            <div class="linea"><p class="p1">Ago</p> <p class="p2">24</p></div>
+            <div class="linea">
+              <p class="p1">Ingreso</p>
+              <p class="p3">Salario</p>
+            </div>
+            <div class="linea4">
+              <p class="p4">$4'500.000</p>
+              <p class="p5">
+                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Editar
+                <span class="glyphicon glyphicon-trash"></span> Eliminar
+              </p>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+   </div>
+
+</body>
+</html>

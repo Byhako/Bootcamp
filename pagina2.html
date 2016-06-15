@@ -11,35 +11,21 @@
 
    <style>
       #d1 {
-         background-color:whiteSmoke;
-         border-bottom: 1px solid #ddd;
-         width:100%;
-         height: 40px;
-         position: fixed;
-         }
-      #fi:hover {
-         background-color:#C7C5C5;
+        background-color:whitesmoke;
+        border-bottom: 1px solid #ddd;
+        width:100%;
+        height: 45px;
+        position: fixed;
+        z-index: 2;
       }
-      #caja {
-
-         width:150px;
-         height: 30px;
-         margin:2px;
-         position: fixed;
-         padding:2px;
+      nav p {
+        padding: 10px 15px 15px 15px;
+        display: inline-block;
+        color:#848484;
+        font-size: 14px;
       }
-      #caja2 {
-         background-color:white;
-         border: 1px solid #C7C5C5;
-         width:70px;
-         height: 30px;
-         margin:5px 5px 5px 50px;
-         position: fixed;
-         padding:2px;
-         text-align: center;
-      }
-      #caja2:hover {
-         background-color: #C7C5C5;
+      nav p:hover {
+        background-color:#C7C5C5;
       }
       #caja3 {
          background-color:#EBEBEE;
@@ -88,7 +74,7 @@
          background-color:white;
          border: 1px solid #C7C5C5;
          width:260px;
-         height:35px;
+         height:40px;
          margin:5px;
          padding:4px;
       }
@@ -105,23 +91,6 @@
          border: 1px solid #BEBCBC;
          color: #898685;
       }
-      #p1 {
-         color:#848484;
-         padding-top: 10px;
-         text-align: center;
-         font-size: 14px;
-      }
-      #p2 {
-         color:#848484;
-         padding-top: 3px;
-         font-size: 14px;
-      }
-      #p3 {
-         color:#848484;
-         padding-top: 10px;
-         text-align: right;
-         font-size: 13px;
-      }
       #p4 {
          display: inline-block;
          margin-left: 45%;
@@ -130,31 +99,27 @@
       #linea {
          display: inline-block;
       }
-
    </style>
 
 </head>
 
 <body>
 
-   <div id = "d1" class="row">
+  <nav id="d1">
+      <p>El Juego</p>
+      <p>Home</p>
+      <p>Beneficios</p>
+      <input type="text" placeholder="Search" style="background-color:white" size="15" color="white" name="nombre"/></input>
+      <button type="button" class="btn btn-default">Submit</button>
+      <p style="float:right;">Ir a otro sitio</p>
+  </nav>
 
-      <div  class="col-md-1" id="fi" > <p id = "p1">El Juego</p> </div>
-      <div  class="col-md-1" id="fi"> <p id = "p1">Home</p> </div>
-      <div  class="col-md-1" id="fi"> <p id = "p1">Beneficios</p> </div>
-      <div  class="col-md-1" > <div id="caja"><p id = "p2">Search <input type="text" size="9" name="nombre"/></div> </div>
-      <div  class="col-md-1" id="fi"> <div id="caja2"><p id = "p2">Submit</p></div> </div>
-      <div  class="col-md-6"></div>
-      <div  class="col-md-1" id="fi"> <p id = "p3"> Ir a otro sitio</p> </div>
-
+   <div id="caja3">
+      <p style="font-family:Arial; font-size:40px;"><strong>El planeta est&aacute en riesgo</strong> </p>
+      <p>S&aacutelvalo jugando este <strong>increible</strong> juego en l&iacutenea</p>
+      <div><button type="button" class="btn btn-primary">Empezar ahora</button></div>
    </div>
 
-      <div id="caja3">
-         <p style="font-family:Arial; font-size:40px;"><strong>El planeta est&aacute en riesgo</strong> </p>
-         <p>S&aacutelvalo jugando este <strong>increible</strong> juego en l&iacutenea</p>
-         <div><button type="button" class="btn btn-primary">Empezar ahora</button></div>
-      </div>
-   </div>
 
    <div class="row" id="caja4">
 
@@ -203,12 +168,12 @@
       <h3><strong>Registro</strong></h3>
 
       <strong>E-mail addres</strong>
-      <div id="caja9"><p>Enter e-mail: <input type="text" size="17" name="e-mail"/></p></div>
+      <div id="caja9"><p>Enter e-mail: <input type="text" style="background-color:white" size="17" name="e-mail"/></p></div>
 
       <strong>Pasword</strong>
-      <div id="caja9"><p>Pasword: <input type="text" name="nombre"/></p></div>
+      <div id="caja9"><p>Pasword: <input type="text" style="background-color:white" name="nombre"/></p></div>
 
-      <input type="checkbox"> Entiendo las condiciones y eso.
+      <input type="checkbox" style="background-color:white"> Entiendo las condiciones y eso.
       <p></p>
       <button type="button" class="btn btn-default">Registrarse</button>
 
