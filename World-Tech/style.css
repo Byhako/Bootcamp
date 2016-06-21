@@ -2,34 +2,31 @@
 
 
 #d1 {
-   background-color:white;
-   border-bottom: 1px solid white;
-   width:100%;
-   height: 120px;
-   margin-left: -50px;
-   margin-top: -8px;
-   position: fixed;
-   z-index: 2;
-
-      }
-
+  background-color:white;
+  border-bottom: 1px solid white;
+  height: 120px;
+  margin-top: -8px;
+  position: fixed;
+  width:105%;
+  z-index: 2;
+}
 #im1 {
-   width: 40px;
-   height: 30px;
-   margin:40px 1px 0px 270px;
-   display: inline-block;
+  display: inline-block;
+  height: 30px;
+  margin:40px 1px 0px 270px;
+  width: 40px;
 }
 #link1 {
-   border-right: 1px solid gray;
-   width: 170px;
-   height: 50px;
-   display: inline-block;
+  border-right: 1px solid gray;
+  display: inline-block;
+  height: 50px;
+  width: 170px;
 }
 #link2 {
-   width: 170px;
-   height: 50px;
-   display: inline-block;
-   margin-left: -35px;
+  display: inline-block;
+  height: 50px;
+  margin-left: -35px;
+  width: 170px;
 }
 #link3 {
    border-right: 1px solid gray;
@@ -38,155 +35,152 @@
    display: inline-block;
 }
 #link4 {
-   border-right: 1px solid gray;
-   width: 170px;
-   height: 50px;
-   display: inline-block;
-   margin-left: -25px;
+  border-right: 1px solid gray;
+  display: inline-block;
+  height: 50px;
+  margin-left: -25px;
+  width: 170px;
 }
 #link5 {
-   width: 170px;
-   height: 50px;
-   display: inline-block;
-   margin-left: -35px;
+  display: inline-block;
+  height: 50px;
+  margin-left: -35px;
+  width: 170px;
 }
 #im2 {
-   width: 90px;
-   height: 50px;
-   margin:10px 1px 0px 270px;
-   display: inline-block;
-   margin:30px 1px -20px 20px;
+  display: inline-block;
+  height: 50px;
+  margin:10px 1px 0px 270px;
+  margin:30px 1px -20px 20px;
+  width: 90px;
 }
 div a {
-    color: #001C2A;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    line-height: 2.875em;
-    margin: -8px 50px;
-    text-decoration:none;
+  color: #001C2A;
+  font-size: 0.9em;
+  line-height: 2.875em;
+  margin: -8px 50px;
+  text-decoration:none;
+  text-transform: uppercase;
 }
 a:hover {
-   text-decoration:underline;
+  text-decoration:underline;
 }
-
-
 
 .splash {
-    height: 30em;
-    width: 100%;
-    margin-top: 7em;
-    padding: 0 2em;
-    box-sizing: border-box;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    padding: 10%;
-    display: inline-block;
-
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  height: 30em;
+  margin-top: 7em;
+  padding: 0 2em;
+  padding: 10%;
+  width: 100%;
 }
 .splash--bg-1 {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("bg_2.jpg");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("bg_2.jpg");
 }
 .splash__title {
-    text-transform: uppercase;
-    font-size: 4.5em;
-    font-weight: 700;
-    line-height: 1em;
+  font-size: 4.5em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
 }
 .splash__subtitle {
-    font-size: 1.4em;
-    font-weight: 300;
+  font-size: 1.4em;
+  font-weight: 300;
 }
 .call-for-actions {
-    text-align: center;
-    margin-top: -1em;
-    margin-bottom: 5em;
+  margin-bottom: 5em;
+  margin-top: -1em;
+  text-align: center;
 }
 .call-for-actions-button {
-    padding: 1em;
-    border-radius: 5px;
-    background: white;
-    font-size: 1.2em;
-    color: #1F1F1F;
-    margin: 1em;
-    width: 4em;
-    transition: all 0.2s;
-    box-shadow: 0 0 5px #727176;
-    text-decoration: none;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #727176;
+  color: #1F1F1F;
+  font-size: 1.2em;
+  margin: 1em;
+  padding: 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+  width: 4em;
 }
 .call-for-actions-button--blue {
-    text-transform: uppercase;
-    color: white;
-    background: #64B0D2;
-    text-decoration: none;
+  background: #64B0D2;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .results {
-    text-align: center;
+  text-align: center;
 }
 .results_title {
-    text-transform: uppercase;
-    color: #001C2A;
-    font-size: 2em;
-    font-weight: 700;
+  color: #001C2A;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .results_blocks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .results_blocks_block {
-    display: inline-block;
-    margin: 1.5em;
-    font-size: 1.5em;
-    padding: 1em 0.5em;
-    width: 205px;
-    height: 7em;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    box-shadow: 0 0 5px #727176;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #727176;
+  display: inline-block;
+  font-size: 1.5em;
+  height: 7em;
+  margin: 1.5em;
+  padding: 1em 0.5em;
+  text-transform: uppercase;
+  width: 205px;
 }
 .results_blocks_block--navy {
-    background-color: #001C2A;
-    background-image: url(/assets/v2/icons/46.png);
-    background-repeat: no-repeat;
-    background-position: 95% 95%;
-    color: white;
+  background-color: #001C2A;
+  background-image: url(/assets/v2/icons/46.png);
+  background-repeat: no-repeat;
+  background-position: 95% 95%;
+  color: white;
 }
 .ribbon {
-    background-color: #F3F6F6;
-    background-image: url(/assets/v2/bgs/9.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 2em;
-    box-sizing: border-box;
-    text-align: center;
-    min-height: 12.875em;
+  background-color: #F3F6F6;
+  background-image: url(/assets/v2/bgs/9.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  min-height: 12.875em;
+  padding: 2em;
+  text-align: center;
 }
 .ribbon_title {
-    text-transform: capitalize;
-    color: #001C2A;
-    font-size: 4em;
+  color: #001C2A;
+  font-size: 4em;
+  text-transform: capitalize;
 }
 .ribbon_subtitle {
-    display: flex;
-    align-items: center;
+  align-items: center;
+  display: flex;
 }
 .ribbon_subtitle_hr {
-    width: 100%;
-    background: #727176;
-    height: 1px;
+  background: #727176;
+  height: 1px;
+  width: 100%;
 }
 .ribon_subtitle_text {
-    width: 100%;
-    font-size: 2em;
-    text-transform: lowercase;
-    color: #001C2A;
+  color: #001C2A;
+  font-size: 2em;
+  text-transform: lowercase;
+  width: 100%;
 }
 .ribbon_content {
-    margin-top: 1em;
-    font-size: 1.5em;
-    color: #727176;
+  color: #727176;
+  font-size: 1.5em;
+  margin-top: 1em;
 }
 .ribbon_content span {
-    color: #001C2A;
+  color: #001C2A;
 }
