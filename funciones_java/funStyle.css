@@ -1,0 +1,40 @@
+h1 {
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+h3 {
+  border-bottom: 2px solid blue;
+  color:blue;
+  text-align: center;
+  width: 20%;
+}
+
+button {
+  margin:10px;
+  padding: 5px;
+}
+.d1 {
+  border-bottom: 2px solid gray;
+  padding-bottom: 15px;
+}
+
+.d2 {
+  display:inline-block;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.d3 {
+  border:1px solid gray;
+  border-radius: 8%;
+  display:inline-block;
+  height: 25px;
+  margin-left: 40px;
+  text-align: center;
+  width: 150px;
+}
+
+#i1 {
+  margin-top: -10px;
+}
