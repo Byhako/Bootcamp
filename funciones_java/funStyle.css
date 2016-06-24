@@ -11,18 +11,18 @@ h3 {
 }
 
 button {
-  margin:10px;
   padding: 5px;
 }
 .d1 {
   border-bottom: 2px solid gray;
-  padding-bottom: 15px;
 }
 
 .d2 {
   display:inline-block;
-  margin-left: 50px;
-  text-align: center;
+  margin-left: 10px;
+  text-align: left;
+  height: 66px;
+  width: 290px;
 }
 
 .d3 {
@@ -30,11 +30,7 @@ button {
   border-radius: 8%;
   display:inline-block;
   height: 25px;
-  margin-left: 40px;
+  margin-left: 10px;
   text-align: center;
   width: 150px;
-}
-
-#i1 {
-  margin-top: -10px;
 }
