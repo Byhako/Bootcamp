@@ -64,6 +64,85 @@ $(document).ready(function(){
     for(var i=0; i<ve.length ; i++){
     ve[i] = ve[i]*Co
     $('#vector').append(ve[i]+',');
-    }
+    };
+  });
+
+  //FUNCION PARIDAD
+  $('#genera').click(function(){
+    $('#aleatorio').empty();
+    $('#paridad').empty();
+    for (var i = 1; i <21; i++){
+      $('#aleatorio').append(i+'</br>'+'</br>');
+
+      if(i%2===0){
+        $('#paridad').append('Numero_par'+'</br>'+'</br>');
+        //alert('Numero par')
+      };
+      if (i%2===1){$('#paridad').append('Numero_impar'+'</br>'+'</br>');}
+
+    };
+  });
+
+  //FUNCION TABLAS DE MULTIPLICAR
+  for(var i=1; i<11; i++ ){
+    for (var j=1; j<11; j++ ){
+      var k = i * j;
+      if(i===1){$('#T1').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===2){$('#T2').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===3){$('#T3').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===4){$('#T4').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===5){$('#T5').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===6){$('#T6').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===7){$('#T7').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===8){$('#T8').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===9){$('#T9').append(i+' x '+j+' = '+k+'</br>')};
+      if(i===10){$('#T10').append(i+' x '+j+' = '+k+'</br>')};
+    };
+  };
+
+//FUNCION SUMAME
+  var ar = [2,4,6,8,10]
+  $('#array').empty();
+  $('#array').append('[2,4,6,8,10]');
+  var L = ar.length;
+  contar = 0;
+
+  $('#suma').click(function(){
+    $('#total').empty();
+    for (var i = 0; i <L; i++) {
+      contar = contar+ar[i];
+    };
+    $('#total').append(contar);
+  });
+
+  //FUNCION PROMEDIAME
+  var ar = [2,4,6,8,10]
+  $('#array1').empty();
+  $('#array1').append('[2,4,6,8,10]');
+  var L = ar.length;
+  conor = 0;
+
+  $('#promedio').click(function(){
+    $('#total1').empty();
+    for (var i = 0; i <L; i++) {
+      conor = conor+ar[i];
+    };
+    $('#total1').append(conor/L);
+  });
+
+//FUNCION TYPE_EXTRACTOR
+  var arreglo = [2,7,'a',true,'b',false];
+  $('#mezcla').empty();
+  $('#mezcla').append("[2,7,'a',true,'b',false]");
+  var R = arreglo.length;
+
+  $('#clasificar').click(function(){
+    $('#total2').empty();
+
+    for(var i = 0; i <R; i++){
+
+      var ban = typeof arreglo[i];
+      $('#total2').append(ban+'&nbsp&nbsp&nbsp'+arreglo[i]+'</br>');
+    };
   });
 });

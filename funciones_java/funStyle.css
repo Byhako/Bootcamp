@@ -34,3 +34,19 @@ button {
   text-align: center;
   width: 150px;
 }
+
+.d4 {
+  display:inline-block;
+  margin: 15px;
+  padding-left: 10px;
+  text-align: center;
+  width: 15%;
+}
+
+.d5 {
+  display:inline-block;
+  margin: 15px;
+  padding-left: 10px;
+  text-align: left;
+  width: 60%;
+}
