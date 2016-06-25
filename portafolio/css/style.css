@@ -1,0 +1,215 @@
+* { box-sizing: border-box; }
+
+body {
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+	line-height: 1.6;
+}
+
+.home-wrapper {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg_2.jpg'), no-repeat, center, top;
+  background-size: cover;
+  color: white;
+}
+
+header {
+  background-color: rgba(48, 48, 48, 0.5);
+  position: fixed;
+	padding: 10px 0;
+	width: 100%;
+}
+
+header nav {
+  float: right;
+  margin: 10px;
+}
+
+header nav a {
+  color: white;
+  /*font-weight: bold;*/
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px 15px;
+}
+
+header nav a.active {
+  background: #fed136;
+  border-radius: 3px;
+}
+
+header .logo {
+  font-size: 27px;
+  font-weight: normal;
+  margin: 10px;
+}
+
+#home {
+  text-align: center;
+	padding: 200px 0 150px;
+}
+
+#home h1 {
+  font-size: 68px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+#home p {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+#home .social {
+  margin-top: 80px;
+}
+
+#home .social a {
+  background: black;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition:all .3s;
+}
+
+#home .social a:hover {
+  background: #fed136;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#servicios h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 50px;
+}
+
+#servicios .box {
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+}
+
+#video {
+  background: black;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#portafolio h2 {
+  font-size: 32px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+#portafolio .box {
+	display: inline-block;
+	text-align: center;
+	width: 31%;
+	margin: 1%;
+	background-color: white;
+}
+
+#portafolio .box img {
+  width: 100%;
+}
+
+#contacto {
+  background: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#contacto h2 {
+  color: white;
+  font-size: 32px;
+}
+
+#contacto input {
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contacto button {
+  background: #fed136;
+  padding: 20px 40px;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+section {
+  padding: 80px 0;
+}
+
+footer {
+  font-size: 18px;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+@media only screen and (max-width : 992px) {
+  .home-wrapper {
+    width: 100%;
+  }
+
+  #home h1{
+    font-size: 48px;
+  }
+
+  #home p {
+    font-size: 18px;
+  }
+
+}
+@media only screen and (max-width : 768px) {
+  header {
+    text-align: center;
+  }
+  header nav {
+    float: none;
+  }
+
+  header .logo {
+    font-size: 18px;
+  }
+
+  header nav a {
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+
+
+
+
+}
+
