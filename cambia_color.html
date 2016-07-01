@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Change the color of the squares on click</title>
+
+  <style>
+    .contenedor {
+      height: 250px;}
+    .square {
+      float: left;
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      margin: 10px;
+    }
+
+    .blue { background: blue; }
+    .red { background: red; }
+  </style>
+</head>
+<body>
+  <h1>Al hacer click sobre los cuadrados azules, se debe cambiar su color a amarillo.</h1>
+
+  <div class="contenedor">
+    <div class="square blue"></div>
+    <div class="square red"></div>
+    <div class="square red"></div>
+    <div class="square blue"></div>
+    <div class="square red"></div>
+    <div class="square blue"></div>
+    <div class="square blue"></div>
+    <div class="square blue"></div>
+    <div class="square red"></div>
+    <div class="square blue"></div>
+    <div class="square red"></div>
+    <div class="square red"></div>
+    <div class="square blue"></div>
+    <div class="square red"></div>
+    <div class="square red"></div>
+    <div class="square red"></div>
+    <div class="square blue"></div>
+    <div class="square red"></div>
+  </div>
+
+  <h1>Al hacer doble click sobre los cuadrados amarillos, regresan a ser azules.</h1>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('.blue').click(function(){
+        $(this).css('background','yellow')
+      });
+
+      $('.blue').dblclick(function(){
+        $(this).css('background','blue')
+      });
+
+    });
+
+  </script>
+</body>
+</html>

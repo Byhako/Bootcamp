@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tareas</title>
+   <script
+    src="https://code.jquery.com/jquery-1.12.4.js"
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="listas.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Lista de Tareas</h1>
+
+    <input type="text" id="input" name='mensaje'placeholder="Cual es tu tarea?">
+    <ul class="todo-list">
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+
+      $(document).keydown(function(key){
+        switch(parseInt(key.which,10)){
+          case 13:
+            var Agregar = $("input[name=mensaje]").val();
+            $('.todo-list').append("<p class='origen'>"+"<input type='checkbox' class='mycheck' id='box'>"+Agregar+"</p>");
+            break;
+        };
+      });
+
+      $(document).on('click','p',function(){
+
+        if($(".mycheck").is(':checked')) {
+          $(this).removeClass('parrafo');
+          $(this).addClass('parrafo1');
+        }
+        else {
+          $(this).removeClass('parrafo1');
+          $(this).addClass('parrafo');
+        }
+      });
+
+      $(document).on('mouseenter','p',function(){
+        $(this).removeClass('origen');
+        $(this).addClass('parrafo');
+        $(this).append('<img src="equis.jpg" class="img" />');
+      });
+
+      $(document).on('mouseleave','p',function(){
+        $(this).removeClass('parrafo');
+        $(this).addClass('origen');
+        $('.img').remove();
+      });
+
+      $(document).on('click','.img',function(){
+        $('.parrafo').remove();
+      });
+
+    });
+
+  </script>
+
+
+
+</body>
+</html>
