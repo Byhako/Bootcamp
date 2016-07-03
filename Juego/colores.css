@@ -14,7 +14,7 @@ h1 {
   color: white;
   font-size: 26px;
   margin-bottom: 40px;
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -48,39 +48,100 @@ h1 {
   width: 60px;
 }
 
-#score {
-  margin-top: 50px;
-  text-align: center;
-  color: white;
+/*********************************************************/
+section{
+  margin-top: 150px;
 }
 
-#boton {
-  height: 90px;
+#dibujo{
+  background-color: white;
+  border:2px solid black;
+  border-radius: 5%;
+  display: inline-block;
+  font-size: 20px;
+  height: 70px;
+  margin-left: 8%;
+  text-align: left;
+  vertical-align: top;
+  width: 60%;
+  position: relative;
+}
+
+#dibujo p {
+  display: inline-block;
+  width: 30%;
+  margin-right: 20px;
+  text-align: center;
+  position: absolute;
+  top:-5px;
+  left: 180px;
+}
+
+#boton-malo {
+  height: 40px;
   width: 200px;
   background-color: #0404B4;
-  border-radius: 10%;
+  border-radius: 5%;
   border:2px solid #FFFF00;
-  margin-left: 45%;
-  margin-top: 50px;
+  display: inline-block;
   text-align: center;
+  position: absolute;
+  top:15px;
+  right: 80px;
 }
 
-div a{
-  text-decoration: none;
-  color: #2E9AFE;
+#boton-malo h2{
+  color: #00BFFF;
+  display: inline-block;
+  font-size: 16px;
 }
 
-#bueno {
-  background-color: #04B404;
+#boton-bueno {
+  height: 40px;
+  width: 200px;
+  background-color: #0404B4;
+  border-radius: 5%;
+  border:2px solid #FFFF00;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top:15px;
+  right: 80px;
 }
 
-#mal {
-  background: #B40404;
+#boton-bueno h2{
+  color: #00BFFF;
+  display: inline-block;
+  font-size: 16px;
 }
 
 #im {
-  margin-left: 38%;
-  width: 300px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 50px;
+  width: 80px;
+}
+
+#parrafo {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 70px;
+  margin-left: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+#score {
+  background-color: white;
+  border:2px solid black;
+  border-radius: 5%;
+  color:black;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 70px;
+  text-align: center;
+  width: 70px;
 }
